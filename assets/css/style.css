@@ -933,19 +933,7 @@ span {
   margin-left: 0;
 }
 
-    .why-choose-us {
-        background-color: #f9fbfd;
-        padding: 80px 0;
-        position: relative;
-        overflow: hidden;
-    }
     
-    .why-choose-us .divider {
-        width: 80px;
-        height: 3px;
-        background: #F5862E;
-        margin: 20px auto 40px;
-    }
     
     .feature-card {
         background: white;
@@ -1008,22 +996,9 @@ span {
         transform: scaleX(1);
     }
     
-    @media (max-width: 767px) {
-        .why-choose-us {
-            padding: 60px 0;
-        }
-        
-        .feature-card {
-            padding: 25px 20px;
-        }
-    }
+  
    
-    .about-section {
-        padding: 100px 0;
-        background-color: #f9fbfd;
-        position: relative;
-        overflow: hidden;
-    }
+ 
     
     .highlight {
         color: #F5862E;
@@ -1067,19 +1042,7 @@ span {
         100% { left: 130%; }
     }
     
-    .about-content {
-        margin-top: 30px;
-    }
-    
-    .about-item {
-        display: flex;
-        margin-bottom: 25px;
-        transition: all 0.3s ease;
-    }
-    
-    .about-item:hover {
-        transform: translateX(10px);
-    }
+   
     
     .icon-box {
         width: 60px;
@@ -1105,11 +1068,7 @@ span {
         color: #F5862E;
         font-size: 14px;
     }
-    
-    .about-image {
-        position: relative;
-        padding-left: 30px;
-    }
+ 
     
     .main-image {
         border-radius: 10px;

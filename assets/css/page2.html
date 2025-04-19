@@ -1,116 +1,23 @@
-<section class="hero hero-fun">
-    <!-- Particules animées en fond -->
-    <div id="hero-particles"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+<body>
+<div>
+<a href="" class="btn btn-danger" id="bouton">clic</a>
+<script>
+    let elembtn = document.getElementById("bouton");
+  
     
-    <!-- Éléments décoratifs animés -->
-    <div class="hero-orb orb-1"></div>
-    <div class="hero-orb orb-2"></div>
-    <div class="hero-shape shape-1"></div>
-    <div class="hero-shape shape-2"></div>
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="swiper-container hero-slider-fun">
-                    <div class="swiper-wrapper">
-                        <!-- Slide 1 -->
-                        <div class="swiper-slide">
-                            <div class="slide-content-fun" data-swiper-parallax="-500">
-                                <h1 class="text-stroke" data-swiper-parallax-opacity="0" data-swiper-parallax-scale="0.5">
-                                    <span class="animated-words">
-                                        <span>Des solutions</span>
-                                        <span>sur mesure</span>
-                                        <span>efficaces</span>
-                                    </span>
-                                </h1>
-                                <p class="typing-text" data-swiper-parallax="-300">Nous développons des stratégies personnalisées et des solutions efficaces pour relever vos défis.</p>
-                                <div class="hero-buttons" data-swiper-parallax="-200">
-                                    <a href="#" class="btn btn-magnetic">
-                                        <span class="btn-text">En savoir plus</span>
-                                        <span class="btn-circle"></span>
-                                    </a>
-                                    <a href="#" class="btn btn-magnetic btn-secondary">
-                                        <span class="btn-text">Nous contacter</span>
-                                        <span class="btn-circle"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- Slide 2 -->
-                        <div class="swiper-slide">
-                            <div class="slide-content-fun" data-swiper-parallax="-500">
-                                <h1 class="text-stroke" data-swiper-parallax-opacity="0" data-swiper-parallax-scale="0.5">
-                                    <span class="typewrite" data-period="2000" data-type='[ "Expertise", "Expérience", "Excellence" ]'>
-                                        <span class="wrap"></span>
-                                    </span>
-                                </h1>
-                                <p class="typing-text" data-swiper-parallax="-300">Avec 16 ans d'expérience, dont une décennie au sein d'ONG internationales, nous possédons une expertise transversale.</p>
-                                <div class="hero-buttons" data-swiper-parallax="-200">
-                                    <a href="#" class="btn btn-magnetic">
-                                        <span class="btn-text">En savoir plus</span>
-                                        <span class="btn-circle"></span>
-                                    </a>
-                                    <a href="#" class="btn btn-magnetic btn-secondary">
-                                        <span class="btn-text">Nous contacter</span>
-                                        <span class="btn-circle"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- Slide 3 -->
-                        <div class="swiper-slide">
-                            <div class="slide-content-fun" data-swiper-parallax="-500">
-                                <h1 class="text-stroke" data-swiper-parallax-opacity="0" data-swiper-parallax-scale="0.5">
-                                    <span class="animated-gradient">Impact Amplifié</span>
-                                </h1>
-                                <p class="typing-text" data-swiper-parallax="-300">Nous amplifions l'impact des réalisations des PME et ONG, en les rendant plus efficaces et résilientes.</p>
-                                <div class="hero-buttons" data-swiper-parallax="-200">
-                                    <a href="#" class="btn btn-magnetic">
-                                        <span class="btn-text">En savoir plus</span>
-                                        <span class="btn-circle"></span>
-                                    </a>
-                                    <a href="#" class="btn btn-magnetic btn-secondary">
-                                        <span class="btn-text">Nous contacter</span>
-                                        <span class="btn-circle"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Contrôles personnalisés -->
-                    <div class="hero-slider-controls">
-                        <div class="swiper-pagination hero-pagination"></div>
-                        <div class="swiper-button-next hero-button-next">
-                            <svg viewBox="0 0 24 24">
-                                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/>
-                            </svg>
-                        </div>
-                        <div class="swiper-button-prev hero-button-prev">
-                            <svg viewBox="0 0 24 24">
-                                <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"/>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Scroll indicator -->
-    <div class="scroll-indicator">
-        <div class="mouse">
-            <div class="wheel"></div>
-        </div>
-        <div class="arrows">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-</section>
-
-
-
+    elembtn.addEventListener("click", function() {
+       
+        alert("bonjour");
+    });
+</script>
+</div>
+</body>
+</html>
